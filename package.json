@@ -1,0 +1,25 @@
+{
+  "name": "kodilla-js-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-js-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-cisowska/modul-9.git"
+  },
+  "author": "Joanna Cisowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-cisowska/modul-9/issues"
+  },
+  "homepage": "https://github.com/j-cisowska/modul-9#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
