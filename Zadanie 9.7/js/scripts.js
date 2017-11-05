@@ -113,7 +113,7 @@ function checkRoundWinner(playerPick, computerPick) {
 
 /*
 KOŃCÓWKA!!
-https://codepen.io/anon/pen/dZMyob?editors=1111
+https://codepen.io/anon/pen/dZMyob?editors=0001
 
 var playerIsTheWinner = document.getElementById('js-playerPoints'),
     computerIsTheWinner = document.getElementById('js-computerPoints');
