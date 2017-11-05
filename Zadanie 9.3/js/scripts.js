@@ -6,6 +6,6 @@ text = text.replace("Velociraptor", dinosaur);
 
 text.length // 144
 
-text = text.substr(0,72);
+text = text.substr(0, text.length/2);
 
 console.log(text);

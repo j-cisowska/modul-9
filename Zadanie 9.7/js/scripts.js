@@ -47,7 +47,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     computerPointsElem = document.getElementById('js-computerPoints');
 
 function newGame() {
-  player.name = prompt('Please enter your name', 'imię gracza');
+  player.name = prompt('Please enter your name', 'your name');
   if (player.name) {
     player.score = computer.score = 0;
     gameState = 'started';
@@ -127,4 +127,22 @@ function checkWinnerOfTheGame (player, computer) {
   jeśli player lub jeśli komputer score == 10 to -> Game Over
   
 }
+*/
+
+
+/*
+var playerIsTheWinnerElem = document.getElementById('js-playerPoints'),
+    computerIsTheWinnerElem = document.getElementById('js-computerPoints');
+
+function checkWinnerOfTheGame (player, computer) {
+  
+  var playerIsTheWinner = 10;
+  if (playerIsTheWinner == 10) {
+    console.log('You won!');
+  }
+  else 
+    console.log('You lost!');
+  
+}
+checkWinnerOfTheGame();
 */
