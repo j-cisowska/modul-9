@@ -32,7 +32,7 @@ var gameState = 'notStarted',  //started // ended
         score: 0
     };
 
-/****** SET THE BOARD ******/
+// SET THE BOARD 
 
 function setGameElements() {
 
@@ -59,7 +59,7 @@ function setGameElements() {
 
 setGameElements();
 
-/****** BEGIN OF NEW GAME ******/
+// BEGIN OF NEW GAME 
 
 function newGame() {
 
@@ -70,7 +70,7 @@ function newGame() {
       player.score = 0;
       computer.score = 0;
 
-      //points update in html based on js 
+      // points update in html based on js 
       setGamePoints();
 
       gameState = 'started';
@@ -81,14 +81,14 @@ function newGame() {
 
 }
 
-/***** UPDATE OF POINTS IN HTML ******/
+// UPDATE OF POINTS IN HTML 
 
 function setGamePoints() {
     playerPointsElem.innerHTML = player.score;
     computerPointsElem.innerHTML = computer.score;
 }
 
-/****** LOSOWANIE WYBORU KOMPUTERA *******/
+// LOSOWANIE WYBORU KOMPUTERA
 
 function getComputerPick() {
     var possiblePicks = ['rock', 'paper', 'scissors'];
@@ -96,7 +96,7 @@ function getComputerPick() {
 }
 
 
-/***** SET PLAYERS PICK *****/
+// SET PLAYERS PICK 
 
 function playerPick(playerPick) {
 
@@ -110,7 +110,7 @@ function playerPick(playerPick) {
     checkWinner();
 }
 
-/***** GAME ******/
+// GAME 
 
 function checkRoundWinner(playerPick, computerPick) {
 
@@ -131,11 +131,11 @@ function checkRoundWinner(playerPick, computerPick) {
 
 }
 
-/****** CHECK WINNER *****/
+// CHECK WINNER 
 
 function checkWinner() {
 
-  //determine max points
+  // determine max points
   var winningScore = 10;
 
   if (player.score == winningScore) {
